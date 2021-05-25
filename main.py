@@ -14,10 +14,10 @@ def executeSomething():
 
      # bot
      with open("img.jpg", "rb") as f:
-         webhook.add_file(file=f.read(), filename='example.jpg')
+         webhook.add_file(file=f.read(), filename='img.jpg')
 
      response = webhook.execute()
 
-     time.sleep(5)
+     time.sleep(600)
 
 executeSomething()
